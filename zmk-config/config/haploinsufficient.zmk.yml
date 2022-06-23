@@ -2,10 +2,10 @@ file_format: "1"
 id: haploinsufficient
 name: haploinsufficient
 type: shield
-url: https://github.com/andrewjrae/rae-dux
+url: https://github.com/eiconoklastes/haploinsufficient
 requires: [pro_micro]
 features:
   - keys
 siblings:
-  - rae_dux_left
-  - rae_dux_right
+  - haploinsufficient_left
+  - haploinsufficient_right
