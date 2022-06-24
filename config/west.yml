@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: andrewjrae
-      url-base: https://github.com/andrewjrae
+    - name: eiconoklastes
+      url-base: https://github.com/eiconoklastes
   projects:
     - name: zmk
       remote: andrewjrae
