@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_HAPLOINSUFFICIENT_LEFT
-	def_bool $(shields_list_contains,haploinsuffient_left)
+	def_bool $(shields_list_contains,haploinsufficient_left)
 
 config SHIELD_HAPLOINSUFFICIENT_RIGHT
 	def_bool $(shields_list_contains,haploinsufficient_right)
