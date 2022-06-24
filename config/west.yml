@@ -2,12 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: eiconoklastes
-      url-base: https://github.com/eiconoklastes
   projects:
     - name: zmk
-      remote: andrewjrae
-      revision: global-quick-tap
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
