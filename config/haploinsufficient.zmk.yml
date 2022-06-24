@@ -1,0 +1,11 @@
+file_format: "1"
+id: haploinsufficient
+name: haploinsufficient
+type: shield
+url: https://github.com/eiconoklastes/haploinsufficient
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - haploinsufficient_left
+  - haploinsufficient_right
