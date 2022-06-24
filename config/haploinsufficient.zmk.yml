@@ -1,11 +1,11 @@
 file_format: "1"
-id: haploinsufficient
-name: haploinsufficient
+id: haplo-ins
+name: haplo-ins
 type: shield
 url: https://github.com/eiconoklastes/haploinsufficient
 requires: [pro_micro]
 features:
   - keys
 siblings:
-  - haploinsufficient_left
-  - haploinsufficient_right
+  - haplo-ins_left
+  - haplo-ins_right
