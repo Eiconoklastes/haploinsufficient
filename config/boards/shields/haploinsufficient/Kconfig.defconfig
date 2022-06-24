@@ -1,17 +1,17 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_HAPLOINSUFFICIENT_LEFT
+if SHIELD_HAPLO-INS_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "haploinsufficient"
+	default "haplo-ins"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_HAPLOINSUFFICIENT_LEFT || SHIELD_HAPLOINSUFFICIENT_RIGHT
+if SHIELD_HAPLO-INS_LEFT || SHIELD_HAPLO-INS_RIGHT
 
 config ZMK_SPLIT
 	default y
