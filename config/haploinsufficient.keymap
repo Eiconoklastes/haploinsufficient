@@ -121,7 +121,7 @@
                    &kp N1       &kp N2        &kp N3        &kp N4             &kp N5             &kp N6              &kp N7           &kp N8                   &kp N9        &kp N0
                    &lhm LALT N3 &lhm LSHFT N2 &lhm LCTRL N1 &lhm LGUI N0       &kp N4             &kp N5              &kp MINUS        &kp EQUAL                &rhm LSHFT N8 &rhm LALT N9
                    &kp FSLH     &kp PLUS      &kp CARET     &kp STAR           &trans             &trans              &trans           &kp COMMA                &kp DOT       &trans
-				 /*&            &*/           &trans        &trans             &trans             &trans              &trans           &trans    /*             &             &*/
+				 /*&            &*/         &trans             &trans             &trans              &trans           &trans                   &trans    /*             &             &*/
 			>;
 		};
 
@@ -136,7 +136,7 @@
 
 		nav_layer {
 			bindings = <
-                   &trans       &kp trans     &kp MY_COPY   &kp trans          &kp MY_PASTE       &trans              &kp C_BRI_DEC    &kp C_BRI_INC            &kp VI_U      &bootloader
+                   &trans       &trans        &kp MY_COPY   &kp trans          &kp MY_PASTE       &trans              &kp C_BRI_DEC    &kp C_BRI_INC            &kp VI_U      &bootloader
                    &kp END      &kp C_NEXT    &kp C_PP      &kp C_VOL_UP       &kp DEL            &kp LEFT            &kp DOWN         &kp UP                   &kp RIGHT     &kp HOME
                    &trans       &kp C_PREV    &kp C_MUTE    &kp C_VOL_DN       &kp UNDER          &kp VI_B            &kp PG_DN        &kp PG_UP                &kp VI_W      &trans
 				 /*&            &*/           &trans        &trans             &trans             &bt BT_PRV          &bt BT_NXT       &bt BT_CLR /*            &             &*/
