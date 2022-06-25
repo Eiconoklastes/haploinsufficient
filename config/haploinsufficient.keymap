@@ -130,16 +130,16 @@
                    &trans       &kp EXCL      &kp AT        &kp DLLR           &trans             &trans              &kp TILDE        &kp EQUAL                &kp BSLH      &trans
                    &kp HASH     &kp LT        &kp MINUS     &kp GT             &kp GRAVE          &kp AMPS            &kp LBRC         &kp LPAR                 &kp RPAR      &kp PIPE
                    &kp FSLH     &kp PLUS      &kp CARET     &kp STAR           &kp UNDER          &kp PRCNT           &kp RBRC         &kp LBKT                 &kp RBKT      &trans
-				 /*&            &*/           &trans        &trans             &trans             &trans              &trans           &trans    /*             &             &*/
+				 /*&            &*/         &trans             &trans             &trans              &trans           &trans                   &trans    /*             &             &*/
 			>;
 		};
 
 		nav_layer {
 			bindings = <
-                   &trans       &trans        &kp MY_COPY   &kp trans          &kp MY_PASTE       &trans              &kp C_BRI_DEC    &kp C_BRI_INC            &kp VI_U      &bootloader
+                   &trans       &trans        &kp MY_COPY   &trans             &kp MY_PASTE       &trans              &kp C_BRI_DEC    &kp C_BRI_INC            &kp VI_U      &bootloader
                    &kp END      &kp C_NEXT    &kp C_PP      &kp C_VOL_UP       &kp DEL            &kp LEFT            &kp DOWN         &kp UP                   &kp RIGHT     &kp HOME
                    &trans       &kp C_PREV    &kp C_MUTE    &kp C_VOL_DN       &kp UNDER          &kp VI_B            &kp PG_DN        &kp PG_UP                &kp VI_W      &trans
-				 /*&            &*/           &trans        &trans             &trans             &bt BT_PRV          &bt BT_NXT       &bt BT_CLR /*            &             &*/
+				 /*&            &*/         &trans             &trans             &trans              &bt BT_PRV       &bt BT_NXT       &bt BT_CLR /*            &             &*/
 			>;
 		};
 
