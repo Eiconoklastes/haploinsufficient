@@ -115,7 +115,7 @@
 		rsthd_layer {
 			bindings = <
                    &mt TAB Q        &kp W     &kp E         &kp R              &kp T              &kp Y               &kp U            &kp I                 &kp O         &kp P
-                   &kp A        &kp S         &kp D         &kp F              &kp G              &kp H               &kp J            &kp K                 &kp K         &kp L
+                   &kp A        &kp S         &kp D         &kp F              &kp G              &kp H               &kp J            &kp K                 &kp L         &mt DQT APOS 
                    &mt LSHFT Z  &kp X         &kp C         &kp V              &kp B              &kp N               &kp M            &kp COMMA             &kp DOT       &mt RSHFT RET
 				 /*&            &*/         &mt LALT ESC    &base_lt NAV_L LCMD  &base_lt SYM_L RET   &base_lt SYM_L SPACE &base_lt NUM_L BSPC  &base_lt FUN_L TAB  /*  &             &*/
 			>;
