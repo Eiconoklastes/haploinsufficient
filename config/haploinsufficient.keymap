@@ -114,7 +114,7 @@
         // RSTHD
 		rsthd_layer {
 			bindings = <
-                   &mt TAB Q        &kp W         &kp E         &kp R              &kp T              &kp Y               &kp U            &kp I                 &kp O         &kp P
+                   &mt TAB Q        &kp W     &kp E         &kp R              &kp T              &kp Y               &kp U            &kp I                 &kp O         &kp P
                    &kp A        &kp S         &kp D         &kp F              &kp G              &kp H               &kp J            &kp K                 &kp K         &kp L
                    &mt LSHFT Z  &kp X         &kp C         &kp V              &kp B              &kp N               &kp M            &kp COMMA             &kp DOT       &mt RSHFT RET
 				 /*&            &*/         &kp LALT       &kp LCMD  &mt LCTRL DEL                    &kp SPACE           &mo 1                 &mo 2     /*  &             &*/
@@ -123,8 +123,8 @@
 
 		num_layer {
 			bindings = <
-                   &trans       &kp LT        &kp MINUS     &kp GT             &trans             &trans              &trans           &kp EQUAL                &trans        &trans
-                   &lhm LALT N3 &lhm LSHFT N2 &lhm LCTRL N1 &lhm LGUI N0       &kp N4             &kp N5              &rhm LGUI N6     &rhm LCTRL N7            &rhm LSHFT N8 &rhm LALT N9
+                   &kp N1       &kp N2        &kp N3        &kp N4             &N5                &kp N6              &kp N7           &kp N8                   &kp N9        &kp N0
+                   &lhm LALT N3 &lhm LSHFT N2 &lhm LCTRL N1 &lhm LGUI N0       &kp N4             &kp N5              &kp MINUS        &kp EQUAL                &rhm LSHFT N8 &rhm LALT N9
                    &kp FSLH     &kp PLUS      &kp CARET     &kp STAR           &trans             &trans              &trans           &kp COMMA                &kp DOT       &trans
 				 /*&            &*/           &trans        &trans             &trans             &trans              &trans           &trans    /*             &             &*/
 			>;
