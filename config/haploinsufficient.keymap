@@ -17,11 +17,11 @@
     continue-list = <DEL MINUS BSPC>;
 };
 
-#define RSTHD_L 0
+#define QWERT_L 0
 #define NUM_L   1
 #define SYM_L   2
 #define NAV_L   3
-#define FUN_L   4
+//#define FUN_L   4
 
 #define MY_COPY LC(INSERT)
 #define MY_PASTE LS(INSERT)
@@ -57,7 +57,7 @@
         COMBO(escape, &kp ESC, 0 1, 60)
         COMBO(minus, &kp MINUS, 31 32, 60)
         COMBO(underscore, &kp UNDER, 33 34, 60)
-
+	COMBO(capslock, &caps_word, 20 21, 60)
 
         COMBO(reset_left, &bootloader, 0 1 2 3, 100)
         COMBO(reset_right, &bootloader, 6 7 8 9, 100)
@@ -106,13 +106,13 @@
 	keymap {
 		compatible = "zmk,keymap";
 
-        // RSTHD
-		rsthd_layer {
+        // QWERTY
+		qwert_layer {
 			bindings = <
                    &mt TAB Q    &mt AT W      &kp E         &kp R              &kp T              &kp Y               &kp U            &kp I                 &mt LPAR O    &mt RPAR P
                    &kp A        &kp S         &kp D         &kp F              &kp G              &kp H               &kp J            &kp K                 &kp L         &mt DQT APOS 
                    &mt LSHFT Z  &kp X         &kp C         &kp V              &kp B              &kp N               &kp M            &kp COMMA             &kp DOT       &mt RSHFT QMARK
-				 /*&            &*/      &kp LALT        &base_lt NAV_L LCMD  &base_lt SYM_L RET   &base_lt SYM_L SPACE  &base_lt FUN_L TAB   &base_lt NUM_L BSPC  /*  &             &*/
+				 /*&            &*/      &kp LCTRL          &kp LCMD        &base_lt SYM_L RET    &base_lt NUM_L SPACE  &kp RALT    &base_lt NAV_L BSPC  /*  &             &*/
 			>;
 		};
 
@@ -140,15 +140,6 @@
                    &kp END      &kp C_NEXT    &kp C_PP      &kp C_VOL_UP       &kp DEL            &kp LEFT            &kp DOWN         &kp UP                   &kp RIGHT     &kp HOME
                    &trans       &kp C_PREV    &kp C_MUTE    &kp C_VOL_DN       &kp UNDER          &kp VI_B            &kp PG_DN        &kp PG_UP                &kp VI_W      &trans
 				 /*&            &*/         &trans             &trans             &trans              &bt BT_PRV       &bt BT_NXT       &bt BT_CLR /*            &             &*/
-			>;
-		};
-
-		function_layer {
-			bindings = <
-                   &trans       &trans        &trans        &trans             &trans             &trans              &trans           &trans                   &trans        &trans
-                   &kp F3       &kp F2        &kp F1        &kp F10            &kp F4             &kp F5              &kp F6           &kp F7                   &kp F8        &kp F9
-                   &trans       &trans        &trans        &kp F11            &trans             &trans              &kp F12          &trans                   &trans        &trans
-				 /*&            &*/           &trans        &trans             &trans             &trans              &trans           &trans /*                &             &*/
 			>;
 		};
 	};
