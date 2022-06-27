@@ -14,7 +14,7 @@
 };
 
 &caps_word {
-    continue-list = <UNDERSCORE MINUS BSPC>;
+    continue-list = <DEL MINUS BSPC>;
 };
 
 #define RSTHD_L 0
@@ -52,9 +52,9 @@
 
 
         COMBO(colon, &kp COLON, 7 8, 60)
-        COMBO(semicolon, &kp SEMI, 27 28, 60)
+        COMBO(semicolon, &kp SEMI, 18 19, 60)
         COMBO(slash, &kp FSLH, 1 2, 60)
-
+        COMBO(escape, &kp ESC, 0 1, 60)
         COMBO(minus, &kp MINUS, 31 32, 60)
         COMBO(underscore, &kp UNDER, 33 34, 60)
 
@@ -112,7 +112,7 @@
                    &mt TAB Q    &mt AT W      &kp E         &kp R              &kp T              &kp Y               &kp U            &kp I                 &mt LPAR O    &mt RPAR P
                    &kp A        &kp S         &kp D         &kp F              &kp G              &kp H               &kp J            &kp K                 &kp L         &mt DQT APOS 
                    &mt LSHFT Z  &kp X         &kp C         &kp V              &kp B              &kp N               &kp M            &kp COMMA             &kp DOT       &mt RSHFT QMARK
-				 /*&            &*/      &mt LALT ESC    &base_lt NAV_L LCMD  &base_lt SYM_L RET   &base_lt FUN_L TAB  &base_lt SYM_L SPACE   &base_lt NUM_L BSPC  /*  &             &*/
+				 /*&            &*/      &kp LALT        &base_lt NAV_L LCMD  &base_lt SYM_L RET   &base_lt SYM_L SPACE  &base_lt FUN_L TAB   &base_lt NUM_L BSPC  /*  &             &*/
 			>;
 		};
 
