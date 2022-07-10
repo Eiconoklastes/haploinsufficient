@@ -136,7 +136,7 @@
 
 		nav_layer {
 			bindings = <
-                   &trans       &trans        &kp MY_COPY   &trans             &kp MY_PASTE       &trans              &kp C_BRI_DEC    &kp C_BRI_INC            &kp VI_U      &bootloader
+                   &bt BT_CLR       &trans        &kp MY_COPY   &trans             &kp MY_PASTE       &trans              &kp C_BRI_DEC    &kp C_BRI_INC            &kp VI_U      &bootloader
                    &kp END      &kp C_NEXT    &kp C_PP      &kp C_VOL_UP       &kp DEL            &kp LEFT            &kp DOWN         &kp UP                   &kp RIGHT     &kp HOME
                    &trans       &kp C_PREV    &kp C_MUTE    &kp C_VOL_DN       &kp UNDER          &kp VI_B            &kp PG_DN        &kp PG_UP                &kp VI_W      &trans
 				 /*&            &*/         &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_PRV          &bt BT_NXT       &trans    /*            &             &*/
