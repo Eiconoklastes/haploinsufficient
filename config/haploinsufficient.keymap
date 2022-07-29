@@ -84,34 +84,34 @@
                    &mt TAB Q    &kp W         &kp E         &kp R              &kp T              &kp Y               &kp U            &kp I                 &kp O         &kp P
                    &kp A        &kp S         &kp D         &kp F              &kp G              &kp H               &kp J            &kp K                 &kp L         &kp SEMI
                    &mt LSHFT Z  &kp X         &kp C         &kp V              &kp B              &kp N               &kp M            &kp COMMA             &kp DOT       &mt RSHFT QMARK
-				 /*&            &*/           &kp LCTRL     &kp LALT      &base_lt SYM_L BSPC    &kp RCMD     &base_lt NUM_L SPACE    &base_lt NAV_L RET     /*  &             &*/
+				 /*&            &*/              &kp LCTRL       &kp LALT      &base_lt SYM_L BSPC    &kp RCMD     &base_lt NUM_L SPACE    &base_lt NAV_L RET     /*  &             &*/
 			>;
 		};
 
 		num_layer {
 			bindings = <
                    &kp N1       &kp N2        &kp N3        &kp N4             &kp N5             &kp N6              &kp N7           &kp N8                   &kp N9        &kp N0
-                   &kp STAR     &kp PLUS      &kp MINUS     &trans             &trans             &kp PLUS            &kp MINUS        &kp EQUAL                &trans        &trans
-                   &trans       &trans        &trans        &trans             &trans             &trans              &trans           &kp COMMA                &kp BSLH      &kp FSLH
-				 /*&            &*/           &trans        &trans             &trans             &trans              &trans           &trans    /*             &             &*/
+                   &kp STAR     &kp PLUS      &kp MINUS     &none              &none              &kp PLUS            &kp MINUS        &kp EQUAL                &none         &none 
+                   &none        &none         &none         &none              &none              &none               &none            &kp COMMA                &kp BSLH      &kp FSLH
+				 /*&            &*/         &trans             &trans             &trans              &trans           &trans                   &trans     /*             &             &*/
 			>;
 		};
 
 		sym_layer {
 			bindings = <
                    &kp EXCL     &kp AT        &kp HASH      &kp DLLR           &kp PRCNT          &kp STAR            &kp UNDER        &kp EQUAL                &kp LPAR      &kp RPAR
-                   &kp AMPS     &trans        &trans        &trans             &trans             &trans              &kp LBRC         &kp RBRC                 &trans        &kp APOS
-                   &trans       &trans        &kp CARET     &trans             &kp TILDE          &trans              &trans           &kp LBKT                 &kp RBKT      &kp DQT
-				 /*&            &*/           &trans        &trans             &trans             &trans              &trans           &trans    /*             &             &*/
+                   &kp AMPS     &none         &none         &none              &none              &none               &kp LBRC         &kp RBRC                 &none         &kp APOS
+                   &none        &none         &kp CARET     &none              &kp TILDE          &none               &none            &kp LBKT                 &kp RBKT      &kp DQT
+				 /*&            &*/         &trans             &trans             &trans              &trans           &trans                   &trans     /*             &             &*/
 			>;
 		};
 
 		nav_layer {
 			bindings = <
-                   &trans       &kp UP        &trans        &trans             &trans            &bt BT_SEL 0        &bt BT_SEL 1     &bt BT_SEL 2             &bt BT_SEL 3  &bt BT_SEL 4
-                   &kp LEFT     &kp DOWN      &kp RIGHT     &trans             &trans            &trans              &trans           &trans                   &trans        &trans
-                   &bt BT_CLR   &trans        &trans        &kp C_VOL_UP       &kp C_VOL_DN 1    &trans              &trans           &trans                   &trans        &trans
-				 /*&            &*/           &trans        &trans             &trans            &bt BT_PRV          &bt BT_NXT       &trans    /*            &             &*/
+                   &none        &kp UP        &none         &none              &none             &bt BT_SEL 0        &bt BT_SEL 1     &bt BT_SEL 2             &bt BT_SEL 3  &bt BT_SEL 4
+                   &kp LEFT     &kp DOWN      &kp RIGHT     &none              &none             &none               &none            &none                    &none         &none 
+                   &bt BT_CLR   &none         &none         &kp C_VOL_UP       &kp C_VOL_DN      &none               &none            &none                    &none         &none 
+				 /*&            &*/         &trans             &trans            &trans              &bt BT_PRV       &bt BT_NXT               &trans     /*            &             &*/
 			>;
 		};
 	};
